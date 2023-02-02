@@ -1,0 +1,30 @@
+package:
+  name: sed
+  version: "0.1.0"
+
+build:
+  number: 0
+
+source:
+  git_rev:
+  git_url:
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - pip
+
+  run:
+    - python
+    - numpy
+    - numba
+    - scipy
+
+test:
+  imports:
+    -
+
+about:
+  home:
+  summary: Python prototype library for solving stress enhanced (sed) diffusion problems.
