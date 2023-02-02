@@ -24,7 +24,7 @@ class diffusion1D(object):
     the source terms. 
 
     Attributes:
-    -----------  
+    -----------
 
     x0: float,
         A float specifiying the initial value along the x-axis.
@@ -71,8 +71,6 @@ class diffusion1D(object):
         self.x0 = x0
         self.L = L
         self.N = N
-
-        self.grid = np.linspace(self.x0, self.x0 + self.L, self.N)
 
         # initial profile
         self.phi = phi0
