@@ -23,7 +23,6 @@ requirements:
 
 test:
   imports:
-    -
 
 about:
   home:
